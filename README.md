@@ -17,7 +17,7 @@ O algoritmo contido na pasta [afn](/afn/) foi escrito em C++ e permite a valida�
 ![AFN](imgs/afn.png)
 > Exemplo de Autômato Finito Não Determinístico
 
-Analogamente, no modelo em C++ [`afn\main.cpp`](afn/main.cpp) foi representado utilizado uma `struct` e `std::vector`:
+Analogamente, o modelo em C++ [`afn\main.cpp`](afn/main.cpp) foi representado utilizado uma `struct` e `std::vector`:
 ```C++
 // definindo estrutura do AFN
 std::vector<relacaoEstado> regras {
